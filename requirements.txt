@@ -1,0 +1,21 @@
+# =============================================================
+# MUNDO INVEST — Dependências Python
+# =============================================================
+
+# Framework web assíncrono
+fastapi==0.115.5
+
+# Servidor ASGI para rodar a aplicação
+uvicorn[standard]==0.32.1
+
+# ORM para banco de dados
+sqlalchemy==2.0.36
+
+# Validação de dados (já incluído no FastAPI, mas fixamos a versão)
+pydantic[email]==2.10.2
+
+# Framework de testes
+pytest==8.3.4
+
+# Cliente HTTP para testes (integra com FastAPI)
+httpx==0.28.0
